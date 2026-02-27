@@ -43,3 +43,57 @@ View AI recommendations and progress analysis.
 
 ### Step 5:
 Track your improvements daily.
+
+# 💻 How to Run This Project Locally (For Developers)
+
+## Step 1: Clone the Repository
+
+git clone https://github.com/SUGANTHAN2405/ai-fitness-tracker.git
+
+## Step 2: Navigate to Project Folder
+
+cd ai-fitness-tracker
+
+## Step 3: Open the Website
+
+Open the file:
+
+index.html
+
+You can double-click it or open using Live Server in VS Code.
+
+------------------------------------------------------------------------
+
+# 📂 Project Structure
+
+ai-fitness-tracker/ │── index.html\
+│── style.css\
+│── script.js\
+│── assets/
+
+------------------------------------------------------------------------
+
+# 🛠️ Technologies Used
+
+-   HTML5
+-   CSS3
+-   JavaScript (ES6)
+
+------------------------------------------------------------------------
+
+# 📈 Future Enhancements
+
+-   Add real AI API integration
+-   Add user authentication system
+-   Add cloud database support
+-   Add BMI & calorie prediction system
+-   Develop mobile app version
+
+------------------------------------------------------------------------
+
+# 👨‍💻 Author
+
+Suganthan M\
+Frontend Developer \| Network Engineer \| Cybersecurity Enthusiast
+
+------------------------------------------------------------------------
