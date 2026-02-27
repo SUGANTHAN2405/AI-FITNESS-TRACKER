@@ -25,6 +25,7 @@ This project is built using modern frontend technologies and focuses on usabilit
 # 🖥️ How to Use the Website (For Normal Users)
 
 # Step 1:
+https://studio-buddy-magic.lovable.app/
 Open the Live Demo link above.
 
 # Step 2:
