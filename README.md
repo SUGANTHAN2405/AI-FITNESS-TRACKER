@@ -1,99 +1,147 @@
-# 🏋️ AI Fitness Tracker
-AI Fitness Tracker is a smart web-based application that helps users track workouts, monitor progress, and
-get AI-powered fitness insights for better health and performance.
+# ⚡ IRONTRACK PRO — AI Fitness Tracker
 
-# 📌About the Project
+<div align="center">
 
- AI Fitness Tracker is designed to:
-    1. Track daily workouts
-    2. Monitor fitness progress
-    3. Provide AI-based suggestions
-    4. Improve consistency and performance
-    5. Offer a clean and modern user experience
+![IronTrack Pro](https://img.shields.io/badge/IronTrack-PRO-ff5a1f?style=for-the-badge&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Claude AI](https://img.shields.io/badge/Claude-AI-8B5CF6?style=for-the-badge&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-39d98a?style=for-the-badge)
 
-This project is built using modern frontend technologies and focuses on usability and performance.
+**A full-stack AI-powered fitness tracker built with React and Claude AI.**  
+Personalized workout plans, nutrition tracking, BMI/TDEE analysis, and real-time AI coaching — all in one dark-themed, mobile-first app.
 
-🧠 Key Features
-    🏃 Workout tracking system
-    📊 Progress monitoring dashboard
-    🤖 AI-powered fitness suggestions
-    📱 Fully responsive design
-    ⚡ Fast and smooth performance
-    🎯 User-friendly interface
+[Report Bug](../../issues) · [Request Feature](../../issues)
 
+</div>
 
-# 🖥️ How to Use the Website (For Normal Users)
+---
 
-# Step 1:
-https://studio-buddy-magic.lovable.app/
-Open the Live Demo link above.
+## ✨ Features
 
-# Step 2:
-Register or enter your details (if applicable).
+| Module | Description |
+|---|---|
+| 🔐 **Auth** | Demo login system with two pre-built user profiles |
+| 🧠 **AI Report** | Claude AI generates full fitness analysis: BMI, TDEE, goal alignment, action plan |
+| 📋 **Onboarding** | 4-step profile wizard — body stats, level, macros, lifestyle |
+| ⊞ **Dashboard** | Live stat cards — BMI, ideal weight, BMR, calorie status |
+| 🏋️ **Workout Logger** | Log sets, reps, and weight per exercise with experience-adaptive plans |
+| 🥗 **Nutrition Tracker** | Macro breakdown with pie chart visualization |
+| 📊 **Analytics** | Weight trend chart, weekly training volume, personal records |
+| 📱 **Mobile-First** | Fixed bottom nav, responsive layout, smooth page animations |
 
-# Step 3:
-Add your workout data:
-- Exercise name
-- Duration
-- Calories burned
-- Repetitions or sets
+---
 
-### Step 4:
-View AI recommendations and progress analysis.
+## 🧠 How the AI Works
 
-### Step 5:
-Track your improvements daily.
+IronTrack PRO uses the **Anthropic Claude API** to generate a personalized fitness report.
 
-# 💻 How to Run This Project Locally (For Developers)
+The AI calculates:
+- **BMI** — standard formula with category classification
+- **Ideal Weight Range** — Robinson (1983) + Devine (1974) formulas
+- **BMR** — Mifflin-St Jeor equation
+- **TDEE** — with activity-level multipliers
+- **Calorie gap** — deficit, surplus, or on-target status
+- **Goal alignment score** — 0–100 rating
+- **Full action plan** — calories, protein, frequency, step goal, sleep
+- **Doubt clearing** — 6 common fitness Qs answered for your profile
 
-## Step 1: Clone the Repository
+The AI adapts advice for:
+- 🪑 Desk job workers (NEAT tips, 30–45 min workouts, step targets)
+- 🌱 Beginners (form-first, consistency, full-body)
+- 📈 Intermediate (progressive overload, split routines)
+- 🏆 Advanced athletes (macro precision, deload, recovery)
 
-git clone https://github.com/SUGANTHAN2405/ai-fitness-tracker.git
+---
 
-## Step 2: Navigate to Project Folder
+## 🛠️ Tech Stack
 
-cd ai-fitness-tracker
+- **Frontend** — React 18
+- **Charts** — Recharts (LineChart, BarChart, PieChart)
+- **AI** — Anthropic Claude API (`claude-sonnet-4-20250514`)
+- **Fonts** — Barlow Condensed, Barlow, Roboto Mono (Google Fonts)
+- **Styling** — Inline styles with design token system
 
-## Step 3: Open the Website
+---
 
-Open the file:
+## 🚀 Getting Started
 
-index.html
+### Prerequisites
 
-You can double-click it or open using Live Server in VS Code.
+- Node.js 18+
+- Anthropic API Key → [Get one here](https://console.anthropic.com/)
 
-------------------------------------------------------------------------
+### Installation
 
-# 📂 Project Structure
+```bash
+git clone https://github.com/YOUR_USERNAME/irontrack-pro.git
+cd irontrack-pro
+npm install
+cp .env.example .env
+# Add your VITE_ANTHROPIC_API_KEY to .env
+npm run dev
+```
 
-ai-fitness-tracker/ │── index.html\
-│── style.css\
-│── script.js\
-│── assets/
+### Demo Accounts
 
-------------------------------------------------------------------------
+| Email | Password | Profile |
+|---|---|---|
+| `alex@irontrack.io` | `alex123` | Male · 28 · Muscle Gain · Intermediate |
+| `demo@fit.com` | `demo123` | Female · 25 · Fat Loss · Beginner |
 
-# 🛠️ Technologies Used
+> The AI tab requires a valid Anthropic API key.
 
--   HTML5
--   CSS3
--   JavaScript (ES6)
+---
 
-------------------------------------------------------------------------
+## 📁 Project Structure
 
-# 📈 Future Enhancements
+```
+irontrack-pro/
+├── src/
+│   └── App.jsx              # Full application source
+├── public/
+│   └── index.html
+├── docs/
+│   ├── ABOUT.md             # Project background & motivation
+│   ├── APP.md               # App architecture & component guide
+│   └── CODE.md              # Code conventions & design decisions
+├── .github/
+│   └── CONTRIBUTING.md
+├── .env.example
+├── package.json
+└── README.md
+```
 
--   Add real AI API integration
--   Add user authentication system
--   Add cloud database support
--   Add BMI & calorie prediction system
--   Develop mobile app version
+---
 
-------------------------------------------------------------------------
+## ⚙️ Environment Variables
 
-# 👨‍💻 Author
+```env
+VITE_ANTHROPIC_API_KEY=your_api_key_here
+```
 
-Suganthan M\
-Frontend Developer \| Network Engineer \| Cybersecurity Enthusiast
+> ⚠️ Never commit your `.env` file. Already in `.gitignore`.
 
-------------------------------------------------------------------------
+---
+
+## 🗺️ Roadmap
+
+- [ ] Real authentication (Supabase / Firebase)
+- [ ] Persistent workout history
+- [ ] Exercise library (100+ movements)
+- [ ] Progressive overload tracking
+- [ ] Food search API integration
+- [ ] PWA support
+
+---
+
+## 📄 License
+
+MIT License. See `LICENSE` for details.
+
+---
+
+## 👤 Author
+
+Built by **[Your Name]** · [GitHub](https://github.com/YOUR_USERNAME)
+
+<div align="center">Made with ⚡ React · Powered by Claude AI</div>
