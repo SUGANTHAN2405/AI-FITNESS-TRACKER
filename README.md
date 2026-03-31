@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-39d98a?style=for-the-badge)
 
-**A full-stack AI-powered fitness tracker built with React and Claude AI.**  
+**A full-stack AI-powered fitness tracker built with React and Java Script.**  
 Personalized workout plans, nutrition tracking, BMI/TDEE analysis, and real-time AI coaching — all in one dark-themed, mobile-first app.
 
 [Report Bug](../../issues) · [Request Feature](../../issues)
