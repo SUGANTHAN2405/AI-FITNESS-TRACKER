@@ -141,6 +141,6 @@ MIT License. See `LICENSE` for details.
 
 ## 👤 Author
 
-Built by **[Your Name]** · [GitHub](https://github.com/YOUR_USERNAME)
+Built by **[SUGANTHAN M]** · [GitHub](https://github.com/SUGANTHAN)
 
 <div align="center">Made with ⚡ React · Powered by Claude AI</div>
