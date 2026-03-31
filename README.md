@@ -4,7 +4,6 @@
 
 ![IronTrack Pro](https://img.shields.io/badge/IronTrack-PRO-ff5a1f?style=for-the-badge&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Claude AI](https://img.shields.io/badge/Claude-AI-8B5CF6?style=for-the-badge&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-39d98a?style=for-the-badge)
 
 **A full-stack AI-powered fitness tracker built with React and Claude AI.**  
